@@ -1,1 +1,1 @@
-FROM gitpod/workspace-dotnet:latest
+FROM reg-hk.agodadev.io/devops/gitpod/workspace-dotnet:latest

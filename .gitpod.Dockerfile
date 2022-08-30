@@ -9,5 +9,7 @@ ENV NODE_EXTRA_CA_CERTS "/usr/local/share/ca-certificates/ca.crt"
 
 COPY ca.crt /usr/local/share/ca-certificates/ca.crt
 
+RUN sleep 10
+
 # Install dependencies
 RUN update-ca-certificates && whoami
